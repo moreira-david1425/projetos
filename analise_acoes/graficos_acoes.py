@@ -19,11 +19,6 @@ def carregar_dados(acao):
     dados = yf.download(acao, period='1y', interval='1d')
     return dados
 
-
-
-
-
-
 st.set_page_config(page_title="Análise de Ações", page_icon="📈", layout="wide")
 st.markdown("""
 <style>
